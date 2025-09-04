@@ -27,7 +27,7 @@
       "type": "decimal"
     },
     "image": {
-      "type": "string"
+      "type": "text"
     },
     "mise_en_avant": {
       "type": "boolean"

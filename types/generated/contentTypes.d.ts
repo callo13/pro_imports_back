@@ -391,7 +391,7 @@ export interface ApiImportProductImportProduct
       Schema.Attribute.Private;
     description: Schema.Attribute.String;
     details: Schema.Attribute.Text;
-    image: Schema.Attribute.String;
+    image: Schema.Attribute.Text;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
