@@ -391,7 +391,11 @@ export interface ApiImportProductImportProduct
       Schema.Attribute.Private;
     description: Schema.Attribute.String;
     details: Schema.Attribute.Text;
-    image: Schema.Attribute.Text;
+    images_file: Schema.Attribute.Media<
+      'images' | 'files' | 'videos' | 'audios',
+      true
+    >;
+    images_url: Schema.Attribute.Text;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',

@@ -26,11 +26,21 @@
     "price": {
       "type": "decimal"
     },
-    "image": {
+    "images_url": {
       "type": "text"
     },
     "mise_en_avant": {
       "type": "boolean"
+    },
+    "images_file": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
