@@ -17,9 +17,6 @@
     "description": {
       "type": "string"
     },
-    "details": {
-      "type": "text"
-    },
     "category": {
       "type": "string"
     },
@@ -41,6 +38,9 @@
         "videos",
         "audios"
       ]
+    },
+    "details": {
+      "type": "blocks"
     }
   }
 }

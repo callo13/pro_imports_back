@@ -390,7 +390,7 @@ export interface ApiImportProductImportProduct
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     description: Schema.Attribute.String;
-    details: Schema.Attribute.Text;
+    details: Schema.Attribute.Blocks;
     images_file: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
