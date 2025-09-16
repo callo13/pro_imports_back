@@ -27,7 +27,8 @@
       "type": "text"
     },
     "mise_en_avant": {
-      "type": "boolean"
+      "type": "integer",
+      "default": 0
     },
     "images_file": {
       "type": "media",

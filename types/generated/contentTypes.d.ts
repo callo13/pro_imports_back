@@ -402,7 +402,7 @@ export interface ApiImportProductImportProduct
       'api::import-product.import-product'
     > &
       Schema.Attribute.Private;
-    mise_en_avant: Schema.Attribute.Boolean;
+    mise_en_avant: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
     price: Schema.Attribute.Decimal;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String;
