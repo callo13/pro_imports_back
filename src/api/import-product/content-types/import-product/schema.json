@@ -42,6 +42,11 @@
     },
     "details": {
       "type": "blocks"
+    },
+    "pastille": {
+      "type": "component",
+      "component": "pastille.pastille",
+      "repeatable": true
     }
   }
 }
