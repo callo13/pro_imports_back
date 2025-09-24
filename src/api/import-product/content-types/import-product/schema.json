@@ -18,7 +18,9 @@
       "type": "string"
     },
     "category": {
-      "type": "string"
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
     },
     "price": {
       "type": "decimal"
