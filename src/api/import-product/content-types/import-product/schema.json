@@ -49,6 +49,10 @@
       "type": "component",
       "component": "pastille.pastille",
       "repeatable": true
+    },
+    "new": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

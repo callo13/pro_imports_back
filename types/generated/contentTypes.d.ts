@@ -432,6 +432,7 @@ export interface ApiImportProductImportProduct
     > &
       Schema.Attribute.Private;
     mise_en_avant: Schema.Attribute.Integer & Schema.Attribute.DefaultTo<0>;
+    new: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     pastille: Schema.Attribute.Component<'pastille.pastille', true>;
     price: Schema.Attribute.Decimal;
     publishedAt: Schema.Attribute.DateTime;
