@@ -53,6 +53,13 @@
     "new": {
       "type": "boolean",
       "default": false
+    },
+    "promotion_active": {
+      "type": "boolean",
+      "default": false
+    },
+    "promotion_discount_percentage": {
+      "type": "integer"
     }
   }
 }

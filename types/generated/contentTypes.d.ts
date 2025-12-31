@@ -435,6 +435,9 @@ export interface ApiImportProductImportProduct
     new: Schema.Attribute.Boolean & Schema.Attribute.DefaultTo<false>;
     pastille: Schema.Attribute.Component<'pastille.pastille', true>;
     price: Schema.Attribute.Decimal;
+    promotion_active: Schema.Attribute.Boolean &
+      Schema.Attribute.DefaultTo<false>;
+    promotion_discount_percentage: Schema.Attribute.Integer;
     publishedAt: Schema.Attribute.DateTime;
     title: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
